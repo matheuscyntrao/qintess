@@ -7,7 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
-public class AmazonSearch {
+public class AmazonSearchTest {
 
     WebDriver driver;
     AmazonHomeTasks amazonHomeTasks;
@@ -21,7 +21,7 @@ public class AmazonSearch {
 
     @Test
     public void SearchForSometing() throws InterruptedException {
-        //this.amazonHomeTasks.doSearch("computador");
+        this.amazonHomeTasks.doSearch("computador");
     }
 
     @After

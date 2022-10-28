@@ -21,7 +21,7 @@ public class AmazonSearch {
 
     @Test
     public void SearchForSometing() throws InterruptedException {
-        this.amazonHomeTasks.doSearch("computador");
+        //this.amazonHomeTasks.doSearch("computador");
     }
 
     @After

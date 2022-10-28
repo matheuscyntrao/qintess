@@ -18,8 +18,8 @@ public class Button implements IButton {
         this.element.click();
     }
 
-    public boolean isDisplayed() {
-        return this.element.isDisplayed();
+    public Boolean isChecked() {
+        return this.element.isSelected();
     }
 
 }

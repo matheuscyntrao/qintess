@@ -2,18 +2,18 @@ package PageObjectsFramework;
 
 import Elements.Button;
 import Elements.TextField;
-import PageObjects.AmazonHomePageObjects;
+import PageObjects.CalculatorPageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class AmazonHomePageObjectsFramework {
+public class GoogleHomePageObjectsFramework {
 
     Button btnSearch;
     TextField txtFieldSearch;
 
-    public AmazonHomePageObjectsFramework(WebDriver driver) {
-        AmazonHomePageObjects page = PageFactory.initElements(driver, AmazonHomePageObjects.class);
-        this.btnSearch = new Button(driver, page.getSearchButton());
+    public GoogleHomePageObjectsFramework(WebDriver driver) {
+        CalculatorPageObjects page = PageFactory.initElements(driver, CalculatorPageObjects.class);
+        this.btnSearch = new Button(driver, page.getButtonSearch());
         this.txtFieldSearch = new TextField(driver, page.getTextFieldSearch());
     }
 

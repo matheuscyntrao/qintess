@@ -31,7 +31,6 @@ public class Select implements ISelect {
     }
 
     public void click() {
-
         this.element.click();
     }
 
